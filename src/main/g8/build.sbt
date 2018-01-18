@@ -1,7 +1,7 @@
 name := "$name;format="lower,hyphen"$"
 version := "0.0.1-SNAPSHOT"
 
-scalaVersion := "2.12.3"
+scalaVersion := "2.12.4"
 
 scalacOptions ++= Seq(
   "-encoding", "UTF-8",   // source files are in UTF-8
