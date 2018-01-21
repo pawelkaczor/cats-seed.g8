@@ -18,6 +18,10 @@ scalacOptions in (Compile, console) -= "-Xfatal-warnings"
 
 scalacOptions in (Test, console) -= "-Xfatal-warnings"
 
+scalacOptions in (Compile, console) += "-Ywarn-unused:-imports"
+
+scalacOptions in (Test, console) += "-Ywarn-unused:-imports"
+
 libraryDependencies += "org.typelevel" %% "cats-core" % "1.0.1"
 
 addCompilerPlugin("org.spire-math" %% "kind-projector" % "0.9.5")
