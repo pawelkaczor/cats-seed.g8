@@ -22,6 +22,6 @@ scalacOptions in (Compile, console) += "-Ywarn-unused:-imports"
 
 scalacOptions in (Test, console) += "-Ywarn-unused:-imports"
 
-libraryDependencies += "org.typelevel" %% "cats-core" % "1.0.1"
+libraryDependencies += "org.typelevel" %% "cats-core" % "1.2.0"
 
-addCompilerPlugin("org.spire-math" %% "kind-projector" % "0.9.5")
+addCompilerPlugin("org.spire-math" %% "kind-projector" % "0.9.7")
